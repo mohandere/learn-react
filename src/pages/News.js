@@ -3,7 +3,7 @@ import React, {useEffect, useState} from "react";
 import NewsItem from "../components/NewsItem";
 import SelectedNews from "../components/SelectedNews";
 import Loader from "../components/Loader";
-import { fetchNews } from "../utils/apis";
+import { fetchNews } from "../APIs/apis";
 import withSearch from "../components/hocs/withSearch";
 
 function News({ query }) {

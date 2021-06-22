@@ -6,22 +6,13 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
-    "add": "^2.0.6",
     "axios": "^0.19.2",
-    "bootstrap": "^4.5.0",
     "clsx": "^1.1.1",
-    "easyzoom": "^2.5.3",
-    "jquery": "^3.5.1",
     "node-sass": "^4.14.1",
-    "raven": "^2.6.4",
     "react": "^16.13.1",
-    "react-bootstrap": "^1.1.1",
     "react-dom": "^16.13.1",
-    "react-redux": "^7.2.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
-    "redux": "^4.0.5",
-    "redux-devtools-extension": "^2.13.8",
     "tailwindcss": "^1.5.1",
     "uuidv4": "^6.2.3",
     "yarn": "^1.22.4"
@@ -31,9 +22,7 @@
     "build": "react-scripts build",
     "build:style": "tailwind build src/styles/index.css -o src/styles/tailwind.css",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -51,15 +40,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/core": "^7.12.3",
-    "@storybook/addon-actions": "^6.1.1",
-    "@storybook/addon-essentials": "^6.1.1",
-    "@storybook/addon-links": "^6.1.1",
-    "@storybook/node-logger": "^6.1.1",
-    "@storybook/preset-create-react-app": "^3.1.5",
-    "@storybook/react": "^6.1.1",
     "autoprefixer": "^9.8.5",
-    "babel-loader": "^8.2.1",
     "postcss-cli": "^7.1.1"
   }
 }
